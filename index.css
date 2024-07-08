@@ -4,7 +4,7 @@ body {
     box-sizing: border-box;
     text-align: center;
     font-family: monospace;
-    background-color: aquamarine;
+    background:linear-gradient(blue, pink) ;
     color: #fff;
 }
 
@@ -104,6 +104,6 @@ h2, h3, h4 {
 
 @media screen and (max-width: 430px) {
     body {
-        padding: ;
+        padding: 4rem 7rem;
     }
 }
