@@ -76,29 +76,31 @@ h2, h3, h4 {
     height: 15rem;
 }
 
-#gift-img-happy:hover {
-    background-image: url(/images/happy.gif);
-    background-position: center;
-}
-
-#gift-img-hot:hover {
-    background-image: url(/images/hot.gif);
-    background-position: center;
-}
-
-#gift-img-genius:hover {
-    background-image: url(/images/genius.gif);
-    background-position: center;
-}
-
-#gift-img-badass:hover {
-    background-image: url(/images/badass.gif);
-    background-position: center;
-}
-
-#gift-img-cheers:hover {
-    background-image: url(/images/cheers.gif);
-    background-position: center;
+@media (hover: hover) {
+    #gift-img-happy:hover {
+        background-image: url(/images/happy.gif);
+        background-position: center;
+    }
+    
+    #gift-img-hot:hover {
+        background-image: url(/images/hot.gif);
+        background-position: center;
+    }
+    
+    #gift-img-genius:hover {
+        background-image: url(/images/genius.gif);
+        background-position: center;
+    }
+    
+    #gift-img-badass:hover {
+        background-image: url(/images/badass.gif);
+        background-position: center;
+    }
+    
+    #gift-img-cheers:hover {
+        background-image: url(/images/cheers.gif);
+        background-position: center;
+    }
 }
 
 
