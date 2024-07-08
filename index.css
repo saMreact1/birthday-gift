@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: monospace;
+    background-color: aquamarine;
+    color: #fff;
+}
+
+h2, h3, h4 {
+    text-shadow: 1px 0 3px #000;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header h1 {
+    font-size: 2.5rem;
+    text-shadow: 1px 0 5px #000;
+}
+
+#header img {
+    width: 13rem;
+    height: 13rem;
+    border: 8px solid #efb0c9;
+    border-radius: 50%;
+    box-shadow: 1px 0px 15px #0000005d;
+}
+
+#header h2 {
+    font-size: 2rem;
+    margin: 20px auto;
+    background: #efb0c9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#header h4 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    background: #efb0c9;
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: 1px 0 3px #000;
+}
+
+.gift-section {
+    margin: 2rem auto 4rem;
+}
+
+.gift-section h2 {
+    font-size: 1.5rem;
+}
+
+.gift-section h3 {
+    font-size: 1.2rem;
+}
+
+.gift-section .gift-img {
+    background-image: url(/images/cover.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: .5rem auto;
+    width: 30rem;
+    height: 25rem;
+    border: 10px solid #fff;
+    border-radius: 10px;
+    transition: .4s ease-in-out;
+}
+
+#gift-img-cheers {
+    height: 15rem;
+}
+
+#gift-img-happy:hover {
+    background-image: url(/images/happy.gif);
+    background-position: center;
+}
+
+#gift-img-hot:hover {
+    background-image: url(/images/hot.gif);
+    background-position: center;
+}
+
+#gift-img-genius:hover {
+    background-image: url(/images/genius.gif);
+    background-position: center;
+}
+
+#gift-img-badass:hover {
+    background-image: url(/images/badass.gif);
+    background-position: center;
+}
+
+#gift-img-cheers:hover {
+    background-image: url(/images/cheers.gif);
+    background-position: center;
+}
+
+
+@media screen and (max-width: 430px) {
+    body {
+        padding: ;
+    }
+}
